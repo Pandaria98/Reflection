@@ -16,10 +16,10 @@ TestClass::~TestClass() {
 
 void
 TestClass::spam() {
-    std::cout << "spam" << std::endl;
+    std::cout << "spam spam spam" << std::endl;
 }
 
 void
 TestClass::foo() {
-    std::cout << "foo" << std::endl;
+    std::cout << "foo was called" << std::endl;
 }
